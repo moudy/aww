@@ -1,0 +1,15 @@
+@import './css/vendor/normalize.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.fullscreen-img {
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
