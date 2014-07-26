@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf dist
+BROCCOLI_TACO_ENV=production ./node_modules/.bin/broccoli-taco build dist
+./script/upload-to-s3
