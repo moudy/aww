@@ -26,7 +26,7 @@ function upload (filename) {
   var params = {
      localFile: file
   ,  s3Params: {
-      Bucket: 'aww.broccoli-taco'
+      Bucket: 'aww.broccoli-taco.com'
     , Key: filename
     , ACL: 'public-read'
     }
